@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :zodiacs, only: [:index, :show]
+  resources :good_traits, only: [:index, :show]
+  resources :bad_traits, only: [:index, :show]
+  resources :compatability, only: [:index, :show]
 end
