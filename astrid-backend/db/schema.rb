@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2019_11_05_172406) do
     t.string "vibe"
     t.string "element"
     t.string "planet"
+    t.string "image_file_path"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
