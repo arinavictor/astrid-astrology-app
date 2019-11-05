@@ -6,6 +6,7 @@ class CreateZodiacs < ActiveRecord::Migration[6.0]
       t.string :vibe 
       t.string :element
       t.string :planet
+      t.string :image_file_path
       t.timestamps
     end
   end

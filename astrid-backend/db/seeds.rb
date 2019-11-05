@@ -15,7 +15,8 @@ aries = Zodiac.create(
     dates: "March 21 - April 19",
     vibe: "Enthusiastic",
     element: "Fire",
-    planet: "Mars - the planet of war and energy"
+    planet: "Mars - the planet of war and energy",
+    image_file_path: "../pictures/aries.png"
 )
 
 tauras = Zodiac.create(
@@ -23,7 +24,8 @@ tauras = Zodiac.create(
     dates: "April 20 - May 20",
     vibe: "Determined energy",
     element: "Earth",
-    planet: "Venus - the planet of beauty and love"
+    planet: "Venus - the planet of beauty and love",
+    image_file_path: "../pictures/taurus.png"
 )
 
 gemini = Zodiac.create(
@@ -31,7 +33,8 @@ gemini = Zodiac.create(
     dates: "May 21 - June 20",
     vibe: "Mental energy",
     element: "Air",
-    planet: "Mercury - the planet of communication"
+    planet: "Mercury - the planet of communication",
+    image_file_path: "../pictures/gemini.png"
 )
 
 cancer = Zodiac.create(
@@ -39,7 +42,8 @@ cancer = Zodiac.create(
     dates: "June 21 - July 22",
     vibe: "Moody",
     element: "Water",
-    planet: "Moon - celestial body of moods and emotions"
+    planet: "Moon - celestial body of moods and emotions",
+    image_file_path: "../pictures/cancer.png"
 )
 
 leo = Zodiac.create(
@@ -47,7 +51,8 @@ leo = Zodiac.create(
     dates: "July 23 - August 22",
     vibe: "Radiant energy",
     element: "Fire",
-    planet: "The Sun"
+    planet: "The Sun",
+    image_file_path: "../pictures/leo.png" 
 )
 
 virgo = Zodiac.create(
@@ -55,7 +60,8 @@ virgo = Zodiac.create(
     dates: "August 23 - Septemeber 22",
     vibe: "Compassionate and caring",
     element: "Earth",
-    planet: "Mercury - the planet of communication"
+    planet: "Mercury - the planet of communication",
+    image_file_path: "../pictures/virgo.png" 
 )
 
 libra = Zodiac.create(
@@ -63,7 +69,8 @@ libra = Zodiac.create(
     dates: "September 23 - October 22",
     vibe: "Unsteady",
     element: "Air",
-    planet: "Venus - the planet of beauty and love"
+    planet: "Venus - the planet of beauty and love",
+    image_file_path: "../pictures/libra.png"
 )
 
 scorpio = Zodiac.create(
@@ -71,7 +78,8 @@ scorpio = Zodiac.create(
     dates: "October 23 - November 21",
     vibe: "Resilient",
     element: "Water",
-    planet: "Pluto - the planet of power and regeneration"
+    planet: "Pluto - the planet of power and regeneration",
+    image_file_path: "../pictures/scorpio.png"
 )
 
 sagittarius = Zodiac.create(
@@ -79,7 +87,8 @@ sagittarius = Zodiac.create(
     dates: "November 22 - December 21",
     vibe: "Overly expressive - frequent burnouts",
     element: "Fire",
-    planet: "Jupiter - the planet of luck and expansion"
+    planet: "Jupiter - the planet of luck and expansion",
+    image_file_path: "../pictures/sagittarius.png"
 )
 
 capricorn = Zodiac.create(
@@ -87,7 +96,8 @@ capricorn = Zodiac.create(
     dates: "December 22 - January 19",
     vibe: "Resilient energy",
     element: "Earth",
-    planet: "Saturn - the planet of discipline and maturity"
+    planet: "Saturn - the planet of discipline and maturity",
+    image_file_path: "../pictures/capricorn.png"
 )
 
 aquarius = Zodiac.create(
@@ -95,7 +105,8 @@ aquarius = Zodiac.create(
     dates: "January 20 - February 18",
     vibe: "High frequency",
     element: "Air",
-    planet: "Uranus - the planet of originality"
+    planet: "Uranus - the planet of originality",
+    image_file_path: "../pictures/aquarius.png"
 )
 
 pisces = Zodiac.create(
@@ -103,7 +114,8 @@ pisces = Zodiac.create(
     dates: "February 19 - March 20",
     vibe: "Erratic energy levels",
     element: "Water",
-    planet: "Neptune - the planet of fantasy"
+    planet: "Neptune - the planet of fantasy",
+    image_file_path: "../pictures/pisces.png"
 )
 
 GoodTrait.create(
