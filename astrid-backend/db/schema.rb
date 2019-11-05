@@ -13,27 +13,27 @@
 ActiveRecord::Schema.define(version: 2019_11_05_172406) do
 
   create_table "bad_traits", force: :cascade do |t|
-    t.integer "zodiacs_id"
+    t.integer "zodiac_id"
     t.string "trait"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["zodiacs_id"], name: "index_bad_traits_on_zodiacs_id"
+    t.index ["zodiac_id"], name: "index_bad_traits_on_zodiac_id"
   end
 
   create_table "compatabilities", force: :cascade do |t|
-    t.integer "zodiacs_id"
+    t.integer "zodiac_id"
     t.string "compatability"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["zodiacs_id"], name: "index_compatabilities_on_zodiacs_id"
+    t.index ["zodiac_id"], name: "index_compatabilities_on_zodiac_id"
   end
 
   create_table "good_traits", force: :cascade do |t|
-    t.integer "zodiacs_id"
+    t.integer "zodiac_id"
     t.string "trait"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["zodiacs_id"], name: "index_good_traits_on_zodiacs_id"
+    t.index ["zodiac_id"], name: "index_good_traits_on_zodiac_id"
   end
 
   create_table "zodiacs", force: :cascade do |t|
@@ -46,7 +46,7 @@ ActiveRecord::Schema.define(version: 2019_11_05_172406) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "bad_traits", "zodiacs", column: "zodiacs_id"
-  add_foreign_key "compatabilities", "zodiacs", column: "zodiacs_id"
-  add_foreign_key "good_traits", "zodiacs", column: "zodiacs_id"
+  add_foreign_key "bad_traits", "zodiacs"
+  add_foreign_key "compatabilities", "zodiacs"
+  add_foreign_key "good_traits", "zodiacs"
 end

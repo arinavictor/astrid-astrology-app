@@ -1,3 +1,3 @@
-class BadTrait < ApplicationRecord\
-    belong_to :zodiac
+class BadTrait < ApplicationRecord
+    belongs_to :zodiac
 end

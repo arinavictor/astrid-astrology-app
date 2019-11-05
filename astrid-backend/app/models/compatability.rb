@@ -1,3 +1,3 @@
 class Compatability < ApplicationRecord
-    belong_to :zodiac
+    belongs_to :zodiac
 end
